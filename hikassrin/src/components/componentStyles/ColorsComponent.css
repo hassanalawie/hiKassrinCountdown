@@ -35,10 +35,11 @@
     position: relative;
     left: 10%;
     top: 10%;
+    z-index: 1;
 }
 .white{
     background-color: #fff;
     position: relative;
-    right: 40%;
+    left: 40%;
     bottom: 10%;
 }
