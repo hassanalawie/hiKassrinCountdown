@@ -1,0 +1,20 @@
+.countdown {
+    height: 30%;
+    background-color: #E9ABCC; 
+}
+
+.countdown-header {
+    height: 8%;
+    width: 90%;
+    background-color: #E9ABCC;
+    align-items: center;
+    display: flex;
+    /* margin: 10px; */
+}
+
+.screen {
+    height: 86%;
+    width: 96%;
+    margin: 5px;
+    background-color: #EAC7DA;  
+}

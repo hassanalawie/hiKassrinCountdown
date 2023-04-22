@@ -1,11 +1,13 @@
 import React from 'react';
+import Countdown from './Countdown';
+import TodoList from './TodoList' 
 
 export function SideContainers() {
 
   return (
-    <div >
-        <div>Hi</div>
-        <div>Hi</div>
+    <div>
+        <Countdown/>
+        <TodoList/>
     </div>
   );
 }
