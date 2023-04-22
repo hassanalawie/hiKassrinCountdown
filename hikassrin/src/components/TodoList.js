@@ -3,8 +3,11 @@ import React from 'react';
 export function TodoList() {
 
   return (
-    <div >
-        <div>Hi TodoList</div>
+    <div className='countdown todo'>
+        <div className='countdown-header'><p>TO-DO LIST</p></div>
+        <div className='screen'>
+
+        </div>
     </div>
   );
 }

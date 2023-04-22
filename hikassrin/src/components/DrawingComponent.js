@@ -16,7 +16,7 @@ import rect from '../icons/rect.png'
 import spill from '../icons/spill.png'
 import spray from '../icons/spray.png'
 import text from '../icons/text.png'
-
+import kassrin from "../icons/kassrin1.heic"
 export function DrawingComponent() {
   const images = [
     brush,
@@ -45,7 +45,9 @@ export function DrawingComponent() {
         </div>
       ))}
       </div>
-      <div className='canvas'></div>
+      <div className='canvas'>
+        <img alt='This is my beautiful girlfriend kassrin' className='kassrin-pic' src={kassrin} />
+      </div>
     </div>
   );
 }

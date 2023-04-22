@@ -1,20 +1,37 @@
 .countdown {
     height: 30%;
     background-color: #E9ABCC; 
+    display: flex;
+    flex-direction: column;
+    background-color: #EAC7DA;  
+    padding:2px;
+}
+.todo{
+    height: 69% !important;
 }
 
 .countdown-header {
-    height: 8%;
-    width: 90%;
     background-color: #E9ABCC;
     align-items: center;
     display: flex;
+    font-size: 10px;
+    margin: 0px;
+    color:#9d738a;
+    padding: 3px;
     /* margin: 10px; */
+    border: 1px solid #c18ea9;
+
 }
 
 .screen {
-    height: 86%;
-    width: 96%;
-    margin: 5px;
-    background-color: #EAC7DA;  
+    background-color: #EDDDE5;
+    flex-grow: 1;
+    margin:10px;
+    border: 1px solid #c18ea9;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.countdown-component{
+    border: 3px dotted red;
 }

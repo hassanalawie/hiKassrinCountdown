@@ -45,7 +45,7 @@ export function PaintContainer() {
 
   return (
     <div className='base-container' >
-      <div className='psyduck-modal' style={{  backgroundColor: currentPsyduck.backgroundColor,  position:'absolute', top:'25%', right:'50%', display:showModal?'flex':'none', flexDirection:'column', padding: '30px',justifyContent:'center', alignItems:'center'}} >
+      <div className='psyduck-modal' style={{backgroundColor: currentPsyduck.backgroundColor,  position:'absolute', top:'25%', right:'50%', display:showModal?'flex':'none', flexDirection:'column', padding: '30px',justifyContent:'center', alignItems:'center'}} >
         <div style={{padding: '5px', backgroundColor:'red', borderRadius:'5px', cursor:'pointer'}} onClick={handleToolsClick} >X</div>
         <div style={{width:"300px"}}>
 

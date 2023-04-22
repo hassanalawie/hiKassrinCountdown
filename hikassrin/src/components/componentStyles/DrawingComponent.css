@@ -13,11 +13,17 @@
     padding: 5px;
 
 }
+.kassrin-pic{
+    height: 90%;
+}
 
 .canvas{
     width:95%;
     height:100%;
     background-color: #EDDDE5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .grid-item {

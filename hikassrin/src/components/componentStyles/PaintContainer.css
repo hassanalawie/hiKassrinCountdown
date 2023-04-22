@@ -1,5 +1,5 @@
 .base-container{
-    border: 1px solid black;
+    border: 1px solid #c18ea9;
     background-color: #EAC7DA;
 }
 
@@ -24,6 +24,10 @@
     color:#9d738a;
     display: flex;
 }
+
+.light-pink-header div{
+    cursor: pointer;
+}
 .spacer{
     width:100%;
     height:5%;
@@ -35,6 +39,3 @@
     color:#9d738a
 }
 
-.option:click{
-    background-color: #9d738a;
-}

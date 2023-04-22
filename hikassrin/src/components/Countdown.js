@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './componentStyles/Countdown.css'
+import CountdownComponent from './CountdownComponent';
 
 export function Countdown() {
 
@@ -18,6 +19,8 @@ export function Countdown() {
         <div className='screen'>
           <p> Time : {date.toLocaleTimeString()}</p>
           <p> Date : {date.toLocaleDateString()}</p>
+          <CountdownComponent />
+
         </div>
     </div>
   );
