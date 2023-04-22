@@ -1,0 +1,17 @@
+.base-container-2{
+    height: 60%;
+    display: flex;
+    width:100%;
+}
+
+.tools{
+    width:5%;
+    height:50%;
+    background-color: #E8ADC8;
+}
+
+.canvas{
+    width:95%;
+    height:100%;
+    background-color: #EDDDE5;
+}
