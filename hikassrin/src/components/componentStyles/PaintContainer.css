@@ -1,19 +1,24 @@
 .base-container{
     border: 1px solid black;
+    background-color: #EAC7DA;
 }
 
 .pink-header{
-    width:100%;
-    height:3%;
+    max-width:100%;
+    height:2%;
     background-color: #E9ABCC;
     border-bottom: 1px solid #ccc;
     display: flex;
     align-items: center;
+    padding: 5px;
 }
 .light-pink-header{
-    width:100%;
-    height:3%;
+    max-width:100%;
+    height:2%;
     background-color: #EAC7DA;
+    display: flex;
+    align-items: center;
+    padding: 5px;
 }
 .spacer{
     width:100%;
@@ -21,6 +26,13 @@
 }
 
 .title-text {
-    font-size: 12px;
+    font-size: 8px;
     margin: 0px;
+    color:#9d738a
+}
+
+.sub-title-text {
+    font-size: 7.5px;
+    margin: 0px;
+    color:#9d738a
 }
