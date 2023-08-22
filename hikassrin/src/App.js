@@ -140,7 +140,29 @@ function App() {
         {showNewDiv && (
           <div ref={newDivRef} style={{ width: "100%", height: "100vh", display:"flex", justifyContent:"center", alignItems:"center" }}>
             <div>
-              <p style={{fontSize:"60px"}}>可以</p>
+              <p style={{fontSize:"60px", textAlign:"center"}}>可以</p>
+              <p>
+                Dear Katherine, <br></br><br></br>
+                I know this github repo was something we worked 
+                on together but I hope its okay that I changed it a bit.
+                Thank you for being the person you are and always making me the 
+                happiest guy in the world. 365 days ago I knew that you were everything I wanted
+                and more, I knew waiting any longer to ask you to be my girlfriend would be a
+                waste of time because I already knew.
+                Over the past year, I've learned more and more
+                about you, and every day it becomes more and more
+                apparent that I love every single part of you. I love how goofy you are,
+                how much you correct me when I'm just trying to speak English (not a native
+                speaker). I love how you always want to hang out and have fun, I love how you 
+                are always down to do things in my best interest. I love that such a cool person
+                cares about me and I want this cool person (you btw) to know that I care about them
+                a lot. I hope the word hunt game works and 
+                is responsive to your screen but anyways this was the practice you needed (burn) 
+                Thank you for caring about me, 
+                motivating me, and reminding me that everything can and will be alright, 
+                so long as my beautful girlfriend is there. <br></br><br></br>
+                Happy 1 Year honey, schnookims, sweetheart, cutiepie, Kassrin. I love you 
+              </p>
             </div>
           </div>
         )}
