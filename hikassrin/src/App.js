@@ -3,7 +3,7 @@ import './App.css';
 import DisplayGrid from './components/DisplayGrid';
 
 function App() {
-  const [letters, setLetters] = useState([
+  const [letters] = useState([
     ['G', 'V', 'M', 'E'],
     ['I', 'E', 'O', 'D'],
     ['R', 'L', 'E', 'N'],
@@ -40,7 +40,7 @@ function App() {
       const requiredWords = ["ME", "LOVE", "ME", "GIRLFRIEND"];
       if (requiredWords.every((word) => words.includes(word))) {
         setClue1(true);
-        setShowNewDiv(true);
+        setShowNewDiv(clue1);
       }
     }
   };
